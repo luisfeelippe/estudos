@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 420px;
+    margin: 0 auto;
+
+}
+
+
+img {
+    width: 200px;
+}
+
+p{
+    text-align: center;
+}

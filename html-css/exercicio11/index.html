@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Projeto Imagens responsivas</h1>
+    <p>Esse projeto preve a responsividade de imagens em diferentes tamanhos de tela</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/fotopp.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="img/fotom.png" type="image/png">
+        <img src="img/fotog.jpg" alt="foto grande">
+    </picture>
+
+        <audio  preload="metadata" autoplay controls loop>
+        <source src="audio/ACDC - Back In Black (Instrumental).mp3" type="audio/mpeg">
+        <source src="audio/ACDC - Back In Black (Instrumental).otg" type="audio/otg">
+        <source src="audio/ACDC - Back In Black (Instrumental).wav" type="audio/wav">
+        <p>infelizmente o seu navageador não carregou o audio, mas faça dowloand clicando <a href="audio/ACDC - Back In Black (Instrumental).mp3" download="musica.mp3">aqui </a></p>
+    </audio>
+    
+</body>
+</html>
